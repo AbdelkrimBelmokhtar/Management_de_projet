@@ -92,6 +92,11 @@ body{
     padding: 40px 5%;
 }
 
+.produits{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));  
+}
+
 .produits_texte{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -146,4 +151,21 @@ body{
     cursor: pointer;
     background: black;
     color: white
+}
+
+footer {
+    background: black;
+    height: 10vh;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    line-height: 10vh;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #022664;
+    font-weight: bold;
 }
