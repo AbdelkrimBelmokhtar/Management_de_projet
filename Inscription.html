@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="loginstyle.css">
+    <title> Connexion </title>
+</head>
+<body>
+    <div class="Container">
+        <div class="form">
+            <div class="pictureside">
+                <img src="Docs_utiles/logo.png" alt="">
+            </div>
+            <div class="loginside">
+                <form action="Inscription.php" method="post">
+                    <h1> Enregistrez vous </h1>
+                    <div class="inputrow">
+                        <div class="inputIcon">
+                            <i class='bx bxs-user'></i>
+                        </div>
+                        <input type="text" name="username" id="username" placeholder="Nom d'utilisateur" required>
+                    </div>
+                    <div class="inputrow">
+                        <div class="inputIcon">
+                            <i class='bx bx-envelope'></i>
+                        </div>
+                        <input type="text" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="inputrow">
+                        <div class="inputIcon">
+                            <i class='bx bx-phone'></i>
+                        </div>
+                        <input type="text" name="phone" id="phone" placeholder="Numéro de téléphone" required>
+                    </div>
+                    <div class="inputrow">
+                        <div class="inputIcon">
+                            <i class='bx bxs-lock-alt'></i>
+                        </div>
+                        <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+                    </div>
+                    <div class="inputrow">
+                        <div class="inputIcon">
+                            <i class='bx bxs-lock-alt'></i>
+                        </div>
+                        <input type="password" name="confirm_password" id="confirmPassword" placeholder="Confirmez mot de passe" required>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="checkbox" name="rememberMe" id="rememberMe">
+                            <label for="rememberMe"> Remember me </label>
+                        </div>
+                        <a href="#"> Mot de passe oublié ? </a>
+                    </div>
+                    <div class="btnRow">
+                        <input type="submit" value="S'inscrire" class="btn" id="signupBtn">
+                    </div>
+                </form>
+                <div class="btnRow">
+                    <a href="login.html"><input type="button" value="Sign in" class="btn" id="loginBtn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
