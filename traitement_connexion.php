@@ -43,11 +43,7 @@ try {
     echo "Erreur : " . $e->getMessage();
 }
 ?>
-4. Page de profil (profil.php)
-Créer une page de profil pour afficher les informations de l'utilisateur connecté.
 
-php
-Copier le code
 <?php
 session_start();
 if (!isset($_SESSION['user'])) {
