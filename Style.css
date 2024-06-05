@@ -48,7 +48,11 @@ body{
 }
 
 .content{
+<<<<<<< HEAD
     background-image: url(Images_PC/image.png); 
+=======
+   background-image: url(Images_PC/Background.jpg); 
+>>>>>>> 3bf006a641f51154949b97152af13ab484d18aff
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
@@ -56,7 +60,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+<<<<<<< HEAD
     color: #c9d0d8;
+=======
+    color: #16304e;
+>>>>>>> 3bf006a641f51154949b97152af13ab484d18aff
     height: 100vh;
 }
 
