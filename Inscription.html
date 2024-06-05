@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="loginstyle.css">
-    <title> Connexion </title>
+    <title>Inscription</title>
 </head>
 <body>
-    <div class="Container">
+    <div class="container">
         <div class="form">
             <div class="pictureside">
                 <img src="Docs_utiles/logo.png" alt="">
             </div>
             <div class="loginside">
-                <form action="Inscription.php" method="post">
-                    <h1> Enregistrez vous </h1>
+                <form method="post" action="traitement_inscription.php">
+                    <h1>Enregistrez-vous</h1>
                     <div class="inputrow">
                         <div class="inputIcon">
                             <i class='bx bxs-user'></i>
@@ -26,7 +26,7 @@
                         <div class="inputIcon">
                             <i class='bx bx-envelope'></i>
                         </div>
-                        <input type="text" name="email" id="email" placeholder="Email" required>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
                     </div>
                     <div class="inputrow">
                         <div class="inputIcon">
@@ -49,16 +49,16 @@
                     <div class="row">
                         <div class="col">
                             <input type="checkbox" name="rememberMe" id="rememberMe">
-                            <label for="rememberMe"> Remember me </label>
+                            <label for="rememberMe">Se souvenir de moi</label>
                         </div>
-                        <a href="#"> Mot de passe oublié ? </a>
+                        <a href="#">Mot de passe oublié ?</a>
                     </div>
                     <div class="btnRow">
-                        <input type="submit" value="S'inscrire" class="btn" id="signupBtn">
+                        <input type="submit" name="inscription" value="Inscription" class="btn" id="signupBtn">
                     </div>
                 </form>
                 <div class="btnRow">
-                    <a href="login.html"><input type="button" value="Sign in" class="btn" id="loginBtn"></a>
+                    <a href="login.html"><input type="button" value="Connexion" class="btn" id="loginBtn"></a>
                 </div>
             </div>
         </div>
