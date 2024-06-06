@@ -28,10 +28,10 @@
                 <li> <a href="profil.php" class="fa-solid fa-user"> Profil</a> </li>
                 <li> <a href="logout.php" class="fa-solid fa-sign-out-alt"> Déconnexion</a> </li>
             <?php else: ?> 
-                <li> <a href="login.html" class="fa-solid fa-user"> Connexion</a> </li>
+                <li> <a href="login.php" class="fa-solid fa-user"> Connexion</a> </li>
             <?php endif; ?>
-                <li> <a href = "login.html" class = "fa-solid fa-user"> </a> </li>
-                <li> <a href = "Payement.html" class="fa-solid fa-cart-shopping"> </a> </li>
+                <li> <a href = "login.php" class = "fa-solid fa-user"> </a> </li>
+                <li> <a href = "Panier.php" class="fa-solid fa-cart-shopping"> </a> </li>
 
             </ul>
     </nav>
@@ -48,7 +48,7 @@
         <div class="produits">
         
             <div class="carte">
-                
+            <a href="Iphone15.php"> 
                 <div class="img"> <img src="Images_Téléphone/Apple Iphone 15 Pro 128 Go Titane Bleu.jpg"> </div>
                 <div class="decs">  Iphone 15   </div>
                 <div class="titre"> Iphone-15-Pro-128 Go-Titane-Bleu </div>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="carte">
-                    
+                <a href="Samsung24.php">   
                 <div class="img"> <img src="Images_Téléphone/Samsung-Galaxy-S24.jpg"> </div>
                 <div class="decs">  Samsung_Galaxy_S24  </div>
                 <div class="titre">  Samsung Galaxy 24  </div>
@@ -73,7 +73,7 @@
             </div>
 
             <div class="carte">
-                
+            <a href="Xiaomi.php"> 
                 <div class="img"> <img src="Images_Téléphone/Xiaomi-Redmi-Note-13-4G.jpg"> </div>
                 <div class="decs"> Xiaomi_Redmi_Note_13_4G </div>
                 <div class="titre"> Redmi Note 13 </div>
@@ -85,7 +85,7 @@
             </div>
 
             <div class="carte">
-             
+            <a href="Huawei.php"> 
                 <div class="img"> <img src="Images_Téléphone/huawei-nova-12i-1.jpg"> </div>
                 <div class="decs">  huawei_nova_12i_1 </div>
                 <div class="titre"> huawei nova 12i 1 </div>

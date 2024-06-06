@@ -21,20 +21,24 @@ session_start();
             <li> <a href="Tablettes.php">Tablettes</a> </li>
             <li> <a href="Telephone.php">Téléphones</a> </li>
             <li> <a href="Ordinateurs.php">Ordinateurs</a> </li>
+
             <?php if (isset($_SESSION['user'])): ?>
                 <li> <a href="profil.php" class="fa-solid fa-user"> Profil</a> </li>
                 <li> <a href="logout.php" class="fa-solid fa-sign-out-alt"> Déconnexion</a> </li>
             <?php else: ?> 
                 <li> <a href="login.html" class="fa-solid fa-user"> Connexion</a> </li>
             <?php endif; ?>
-            <li> <a href="Payement.html" class="fa-solid fa-cart-shopping"> </a> </li>
+            <li> <a href="panier.php" class="fa-solid fa-cart-shopping"> </a> </li>
         </ul>
     </nav>
 
     <section class="content">
         <h1>Nouveautés</h1>
         <p>Voici les nouvelles technologies que nous vous proposons</p>
-        <button>DÉCOUVRIR</button>
+        <button>
+        DÉCOUVRIR
+
+        </button>
     </section>
     
     <h1 class="produits_texte">Nos best-sellers</h1>

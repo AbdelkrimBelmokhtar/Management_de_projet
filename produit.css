@@ -1,13 +1,17 @@
+/* Réinitialisation des styles */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux pour le corps de la page */
+body {
+    height: 100%;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-body {
-    height: 100%;
-}
-
+/* Styles pour la barre de navigation */
 .navbar {
     padding: 20px 5%;
     display: flex;
@@ -47,23 +51,24 @@ body {
     border-bottom: 4px solid #b9c1cf;
 }
 
+/* Styles pour le contenu principal */
 .content {
-    background-image: url(Images_PC/image.png); 
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Aligner le contenu au centre verticalement */
-    color: #b8bfc8;
+    align-items: center;
+    color: black; /* Couleur du texte */
     height: 100vh;
 }
 
 .img img {
-    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas de son conteneur */
-    max-height: 70vh; /* Limitez la hauteur maximale de l'image à 70% de la hauteur de la vue */
-    width: auto; /* Assurez-vous que l'image conserve ses proportions */
+    max-width: 100%;
+    max-height: 50vh;
+    width: auto;
 }
 
 .content h1 {
@@ -85,13 +90,14 @@ body {
     cursor: pointer;
 }
 
+/* Styles pour les produits */
 .produits_texte {
     text-align: left;
     font-size: 30px;
     font-weight: 300;
     margin-top: 30px;
     margin-left: 80px;
-    color: #16304e;
+    color: black; /* Couleur du texte */
 }
 
 .section_produits {
@@ -100,7 +106,7 @@ body {
 
 .produits {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));  
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .produits .carte {
@@ -154,6 +160,7 @@ body {
     color: white;
 }
 
+/* Styles pour le pied de page */
 footer {
     background: black;
     height: 10vh;
@@ -171,6 +178,7 @@ footer p a {
     font-weight: bold;
 }
 
+/* Style pour les images */
 img {
     padding: 10px 18px;
 }

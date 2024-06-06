@@ -40,13 +40,13 @@ try {
         <div class="logo"><a href="index.php"><h1>Sparkshop</h1></a></div>
         <ul class="menu">
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="Consoles.html">Consoles</a></li>
-            <li><a href="Tablettes.html">Tablettes</a></li>
-            <li><a href="Telephone.html">Téléphones</a></li>
-            <li><a href="Ordinateurs.html">Ordinateurs</a></li>
+            <li><a href="Consoles.php">Consoles</a></li>
+            <li><a href="Tablettes.php">Tablettes</a></li>
+            <li><a href="Telephone.php">Téléphones</a></li>
+            <li><a href="Ordinateurs.php">Ordinateurs</a></li>
             <li><a href="profil.php" class="fa-solid fa-user"> Profil</a></li>
             <li><a href="logout.php" class="fa-solid fa-sign-out-alt"> Déconnexion</a></li>
-            <li><a href="Payement.html" class="fa-solid fa-cart-shopping"></a></li>
+            <li><a href="panier.php" class="fa-solid fa-cart-shopping"></a></li>
         </ul>
     </nav>
 

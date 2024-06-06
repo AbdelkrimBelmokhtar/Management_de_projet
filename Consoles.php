@@ -28,18 +28,16 @@
                 <li> <a href="profil.php" class="fa-solid fa-user"> Profil</a> </li>
                 <li> <a href="logout.php" class="fa-solid fa-sign-out-alt"> Déconnexion</a> </li>
             <?php else: ?> 
-                <li> <a href="login.html" class="fa-solid fa-user"> Connexion</a> </li>
+                <li> <a href="login.php" class="fa-solid fa-user"> Connexion</a> </li>
             <?php endif; ?>
-                <li> <a href = "login.html" class = "fa-solid fa-user"> </a> </li>
-                <li> <a href = "Payement.html" class="fa-solid fa-cart-shopping"> </a> </li>
+                <li> <a href = "login.php" class = "fa-solid fa-user"> </a> </li>
+                <li> <a href = "panier.php" class="fa-solid fa-cart-shopping"> </a> </li>
 
             </ul>
     </nav>
 
     <section class = "Consoles">
 
-        <h1> Consoles </h1>
-        <!-- <p> Voici les Consoles que nous vendons </p> -->
 
     </section>
 
@@ -49,19 +47,19 @@
         <div class="produits">
         
             <div class="carte">
-                
+            <a href="PS5.php">
                 <div class="img"> <img src="Images_Consoles/PS5.JPG"> </div>
                 <div class="decs">  PS5 de Sony    </div>
                 <div class="titre">  Playstation 5   </div>
                 <div class="box"> 
                     <div class="prix"> 500 € </div>
-                    <button class="achat"> Acheter </button>
+                    <button class="achat "> Acheter </button>
                 </div>
             
             </div>
 
             <div class="carte">
-                    
+            <a href="PS4.php">    
                 <div class="img"> <img src="Images_Consoles/PS4.jpg"> </div>
                 <div class="decs">  PS4 de Sony  </div>
                 <div class="titre"> Playstation 4   </div>
@@ -73,19 +71,19 @@
             </div>
 
             <div class="carte">
-                
+                <a href="XBOX_ONE_S.php">  
                 <div class="img"> <img src="Images_Consoles/Xbox_One_X.jpg"> </div>
                 <div class="decs">  Xbox One de Microsoft </div>
                 <div class="titre">  Xbox One series X </div>
                 <div class="box"> 
                     <div class="prix"> 479,99 €</div>
-                    <button class="achat"> Acheter </button>
+                    <button class="achat"       > Acheter </button>
                 </div>
             
             </div>
 
             <div class="carte">
-             
+                <a href="XBOX_ONE.php">  
                 <div class="img"> <img src="Images_Consoles/Xbox_one.jpg"> </div>
                 <div class="decs">  Xbox One de Microsoft </div>
                 <div class="titre"> Xbox One </div>

@@ -30,10 +30,10 @@
                 <li> <a href="profil.php" class="fa-solid fa-user"> Profil</a> </li>
                 <li> <a href="logout.php" class="fa-solid fa-sign-out-alt"> Déconnexion</a> </li>
             <?php else: ?> 
-                <li> <a href="login.html" class="fa-solid fa-user"> Connexion</a> </li>
+                <li> <a href="login.php" class="fa-solid fa-user"> Connexion</a> </li>
             <?php endif; ?>
-                <li> <a href = "login.html" class = "fa-solid fa-user"> </a> </li>
-                <li> <a href = "Payement.html" class="fa-solid fa-cart-shopping"> </a> </li>
+                <li> <a href = "login.php" class = "fa-solid fa-user"> </a> </li>
+                <li> <a href = "Panier.php" class="fa-solid fa-cart-shopping"> </a> </li>
 
             </ul>
     </nav>
@@ -53,7 +53,7 @@
         <div class="produits">
 
             <div class="carte">
-                    
+            <a href="Asus14.php">    
                 <div class="img"> <img src="Images_PC/img1.jpg"> </div>
                 <div class="decs">  Intel Celeron    </div>
                 <div class="titre">  Asus 14 E410MANS-BV1315WS   </div>
@@ -65,7 +65,7 @@
             </div>
         
             <div class="carte">
-                
+            <a href="Asus_Gaming.php"> 
                 <div class="img"> <img src="Images_PC/img2.jpg"> </div>
                 <div class="decs">  TUF Gaming   </div>
                 <div class="titre"> PC Portable Gamer ASUS TUF Gaming  </div>
@@ -77,7 +77,7 @@
             </div>
 
             <div class="carte">
-                
+            <a href="acer.php"> 
                 <div class="img"> <img src="Images_PC/img3.jpg"> </div>
                 <div class="decs">  Acer </div>
                 <div class="titre"> Acer Aspire 3 A315-58  </div>
@@ -89,7 +89,7 @@
             </div>
 
             <div class="carte">
-             
+            <a href="lenovo.php"> 
                 <div class="img"> <img src="Images_PC/img5.jpg"> </div>
                 <div class="decs"> Lenovo </div>
                 <div class="titre"> Lenovo V110-15ISK </div>
